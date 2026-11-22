@@ -1,0 +1,15 @@
+# UI
+streamlit>=1.35.0
+
+# PyTorch (CPU version optimized for Streamlit Community Cloud)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch>=2.2.0
+
+# Transformers & Tokenization
+transformers>=4.40.0
+tokenizers>=0.19.0
+sentencepiece>=0.2.0
+
+# Document Parsers
+pypdf>=4.2.0
+python-docx>=1.1.0
